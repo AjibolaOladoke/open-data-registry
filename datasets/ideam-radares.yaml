@@ -1,0 +1,37 @@
+﻿Name: IDEAM - Colombian Radar Network
+Description: Historical and one-day delay data from the IDEAM radar network.
+Documentation: https://www.ideam.gov.co/nuestra-entidad/servicio-de-pronosticos-y-alertas/guia-de-descarga-y-visualizacion-de-datos-de-radar-meteorologico-de-ideam
+Contact: ospa@idem.gov.co, contacto@ideam.gov.co
+ManagedBy: "[IDEAM](https://www.ideam.gov.co/)"
+UpdateFrequency : Updated level II data is added as soon as it is available.
+Collabs:
+  ASDI:
+    Tags:
+      - weather
+Tags:
+  - aws-pds
+  - agriculture
+  - earth observation
+  - natural resource
+  - weather
+  - meteorological
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Resources:
+  - Description: Level II data
+    ARN: arn:aws:s3:::s3-radaresideam
+    Region: us-east-1
+    Type: S3 Bucket
+DataAtWork:
+  Tutorials:
+    - Title: Guía de Descarga y Visualización Datos de Radar Meteorológico de IDEAM
+      URL: https://www.ideam.gov.co/nuestra-entidad/servicio-de-pronosticos-y-alertas/guia-de-descarga-y-visualizacion-de-datos-de-radar-meteorologico-de-ideam
+      AuthorName: IDEAM
+    - Title: Read and plot Sigmet files available on AWS using Xradar
+      URL: https://docs.openradarscience.org/projects/xradar/en/stable/notebooks/Read-plot-Sigmet-data-from-AWS.html
+      AuthorName: Alfonso Ladino
+    - Title: Ciencia de Datos Hidrometeorológicos con Python
+      URL: https://projectpythia.org/AtmosCol-2023/radares
+      AuthorName: Alfonso Ladino, Nicole Rivera, Max Grover
+    - Title: Specific Differential Phase (KDP) retrieval methods comparison
+      URL: https://projectpythia.org/radar-cookbook/notebooks/example-workflows/kdp-comparison/
+      AuthorName: Alfonso Ladino, Max Grover
