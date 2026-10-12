@@ -6,7 +6,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![open-data-registry](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![open-data-registry](images/preview.png)](https://github.com/Swift-Tech-Co/open-data-registry)
 
 ## What is this for?
 
@@ -94,16 +94,16 @@ The metadata required for each dataset entry is as follows:
 |**DeprecatedNotice** (Optional)|String|Only appropriate for datasets that are being retired, indicates to users that the dataset will soon be deprecated and should include the date that the dataset will no longer be available.|
 |**ADXCategories**|List of strings|Allowed categories can be found in [adx_categories.yaml](adx_categories.yaml), at most, 2 can be added. Adding categories to your listing will improve searchability within the AWS Data Exchange.|
 
-Note also that we use the name of each YAML file as the URL slug for each dataset on the Registry of Open Data on AWS website. E.g. the metadata from `1000-genomes.yaml` is listed at `https://www.swifttechco.com
+Note also that we use the name of each YAML file as the URL slug for each dataset on the Registry of Open Data on AWS website. E.g. the metadata from `1000-genomes.yaml` is listed at `https://github.com/Swift-Tech-Co/open-data-registry
 
 ### Example entry
 
-Here is an example of the metadata behind this dataset registration: https://www.swifttechco.com
+Here is an example of the metadata behind this dataset registration: https://github.com/Swift-Tech-Co/open-data-registry
 
 ```yaml
 Name: NEXRAD on AWS
 Description: Real-time and archival data from the Next Generation Weather Radar (NEXRAD) network.
-Documentation: https://www.swifttechco.com
+Documentation: https://github.com/Swift-Tech-Co/open-data-registry
 Contact: noaa.bdp@noaa.gov
 ManagedBy: "NOAA"
 UpdateFrequency: New Level II data is added as soon as it is available.
@@ -137,33 +137,33 @@ Resources:
 DataAtWork:
   Tutorials:
     - Title: NEXRAD on EC2 tutorial
-      URL: https://www.swifttechco.com
+      URL: https://github.com/Swift-Tech-Co/open-data-registry
       Services: EC2
       AuthorName: openradar
-      AuthorURL: https://www.swifttechco.com
+      AuthorURL: https://github.com/Swift-Tech-Co/open-data-registry
     - Title: Using Python to Access NCEI Archived NEXRAD Level 2 Data (Jupyter notebook)
-      URL: https://www.swifttechco.com
+      URL: https://github.com/Swift-Tech-Co/open-data-registry
       AuthorName: Ryan May
-      AuthorURL: https://www.swifttechco.com
+      AuthorURL: https://github.com/Swift-Tech-Co/open-data-registry
     - Title: Mapping Noaa Nexrad Radar Data With CARTO
-      URL: https://www.swifttechco.com
+      URL: https://github.com/Swift-Tech-Co/open-data-registry
       AuthorName: Stuart Lynn
-      AuthorURL: https://www.swifttechco.com
+      AuthorURL: https://github.com/Swift-Tech-Co/open-data-registry
   Tools & Applications:
     - Title: nexradaws on pypi.python.org - python module to query and download Nexrad data from Amazon S3
-      URL: https://www.swifttechco.com
+      URL: https://github.com/Swift-Tech-Co/open-data-registry
       AuthorName: Aaron Anderson
-      AuthorURL: https://www.swifttechco.com
+      AuthorURL: https://github.com/Swift-Tech-Co/open-data-registry
     - Title: WeatherPipe - Amazon EMR based analysis tool for NEXRAD data stored on Amazon S3
-      URL: https://www.swifttechco.com
+      URL: https://github.com/Swift-Tech-Co/open-data-registry
       AuthorName: Stephen Lien Harrell
-      AuthorURL: https://www.swifttechco.com
+      AuthorURL: https://github.com/Swift-Tech-Co/open-data-registry
   Publications:
     - Title: Seasonal abundance and survival of North America’s migratory avifauna determined by weather radar
-      URL: https://www.swifttechco.com
+      URL: https://github.com/Swift-Tech-Co/open-data-registry
       AuthorName: Adriaan M. Dokter, Andrew Farnsworth, Daniel Fink, Viviana Ruiz-Gutierrez, Wesley M. Hochachka, Frank A. La Sorte, Orin J. Robinson, Kenneth V. Rosenberg & Steve Kelling
     - Title: Unlocking the Potential of NEXRAD Data through NOAA’s Big Data Partnership
-      URL: https://www.swifttechco.com
+      URL: https://github.com/Swift-Tech-Co/open-data-registry
       AuthorName: Steve Ansari and Stephen Del Greco
 ```
 
@@ -188,13 +188,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/open-data-registry
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [awslabs/open-data-registry](https://github.com/awslabs/open-data-registry) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
